@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+  background-image: url('https://previews.123rf.com/images/cnuisin/cnuisin1809/cnuisin180900475/109629164-dog-bone-seamless-pattern-vector-dog-paw-doodle-isolated-wallpaper-background.jpg');
+}
+h1{
+  color:#1E90FF;
+}
+button{
+  padding:20px;
+  font-size: 1.5rem;
+  margin-top: 20px;
+  border-color: blue;
+  
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+
+}
+button:hover{
+background-color: burlywood;
+border-color: red;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
